@@ -1,0 +1,60 @@
+2018-07-03 23:23:38.039  INFO 6280 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-03 23:23:38.039  INFO 6280 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-03 23:23:38.042  INFO 6280 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 3 ms
+2018-07-03 23:23:38.046  INFO 6280 --- [http-nio-8080-exec-2] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@172423a7: startup date [Tue Jul 03 23:23:38 CLT 2018]; root of context hierarchy
+2018-07-03 23:23:38.058  INFO 6280 --- [http-nio-8080-exec-2] c.j.p.pasteleria.PasteleriaApplication   : Test cast object
+2018-07-03 23:23:38.062  INFO 6280 --- [http-nio-8080-exec-2] c.j.p.pasteleria.PasteleriaApplication   : {"id":null,"nombre":"Dummy1","apellido":"App Dummy 1","edad":30,"email":null,"createdAt":null,"updatedAt":null}
+2018-07-03 23:59:06.348  INFO 6280 --- [Thread-115] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@185f8764: startup date [Tue Jul 03 23:23:30 CLT 2018]; root of context hierarchy
+2018-07-03 23:59:06.350  INFO 6280 --- [Thread-115] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-03 23:59:06.351  INFO 6280 --- [Thread-115] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-07-03 23:59:06.352  INFO 6280 --- [Thread-115] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-07-03 23:59:06.352  INFO 6280 --- [Thread-115] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown initiated...
+2018-07-03 23:59:06.352  INFO 6280 --- [Thread-115] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown completed.
+2018-07-03 23:59:06.679  INFO 6280 --- [restartedMain] c.j.p.pasteleria.PasteleriaApplication   : Starting PasteleriaApplication on DESKTOP-5M6SDAQ with PID 6280 (C:\Users\JPVlax\Documents\Desarrollo\pasteleria\target\classes started by JPVlax in C:\Users\JPVlax\Documents\Desarrollo\pasteleria)
+2018-07-03 23:59:06.679  INFO 6280 --- [restartedMain] c.j.p.pasteleria.PasteleriaApplication   : No active profile set, falling back to default profiles: default
+2018-07-03 23:59:06.679  INFO 6280 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7fb7f462: startup date [Tue Jul 03 23:59:06 CLT 2018]; root of context hierarchy
+2018-07-03 23:59:06.920  INFO 6280 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dfefb213] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-03 23:59:06.966  INFO 6280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-07-03 23:59:06.966  INFO 6280 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-03 23:59:06.966  INFO 6280 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-03 23:59:06.998  INFO 6280 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2018-07-03 23:59:06.998  INFO 6280 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 319 ms
+2018-07-03 23:59:07.013  INFO 6280 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-07-03 23:59:07.013  INFO 6280 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-03 23:59:07.013  INFO 6280 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-03 23:59:07.013  INFO 6280 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-03 23:59:07.013  INFO 6280 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-03 23:59:07.045  INFO 6280 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Starting...
+2018-07-03 23:59:07.045  INFO 6280 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Start completed.
+2018-07-03 23:59:07.060  INFO 6280 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-07-03 23:59:07.060  INFO 6280 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-07-03 23:59:07.060  INFO 6280 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-07-03 23:59:07.112  INFO 6280 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-07-03 23:59:07.155  INFO 6280 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-03 23:59:07.217  INFO 6280 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7fb7f462: startup date [Tue Jul 03 23:59:06 CLT 2018]; root of context hierarchy
+2018-07-03 23:59:07.217  WARN 6280 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-07-03 23:59:07.233  INFO 6280 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users/{id}],methods=[PUT]}" onto public com.jp.pasteleria.model.User com.jp.pasteleria.controller.UserController.updateNote(java.lang.Long,com.jp.pasteleria.model.User)
+2018-07-03 23:59:07.233  INFO 6280 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users],methods=[POST]}" onto public com.jp.pasteleria.model.User com.jp.pasteleria.controller.UserController.createUser(com.jp.pasteleria.model.User)
+2018-07-03 23:59:07.233  INFO 6280 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users/dummy1],methods=[GET]}" onto public java.util.List<com.jp.pasteleria.model.User> com.jp.pasteleria.controller.UserController.getDummy1() throws com.fasterxml.jackson.core.JsonProcessingException
+2018-07-03 23:59:07.233  INFO 6280 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users],methods=[GET]}" onto public java.util.List<com.jp.pasteleria.model.User> com.jp.pasteleria.controller.UserController.getAllUsers()
+2018-07-03 23:59:07.233  INFO 6280 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-03 23:59:07.233  INFO 6280 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-03 23:59:07.233  INFO 6280 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-03 23:59:07.233  INFO 6280 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-03 23:59:07.280  INFO 6280 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-07-03 23:59:07.311  INFO 6280 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-03 23:59:07.311  INFO 6280 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-03 23:59:07.311  INFO 6280 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-03 23:59:07.311  INFO 6280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-03 23:59:07.311  INFO 6280 --- [restartedMain] c.j.p.pasteleria.PasteleriaApplication   : Started PasteleriaApplication in 0.648 seconds (JVM running for 3059.907)
+2018-07-03 23:59:07.327  INFO 6280 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-07-03 23:59:07.327  INFO 6280 --- [restartedMain] c.j.p.pasteleria.PasteleriaApplication   : --Application Started--
+2018-07-03 23:59:17.393  INFO 6280 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-07-03 23:59:17.393  INFO 6280 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7fb7f462: startup date [Tue Jul 03 23:59:06 CLT 2018]; root of context hierarchy
+2018-07-03 23:59:17.405  INFO 6280 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-03 23:59:17.405  INFO 6280 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-07-03 23:59:17.405  INFO 6280 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-07-03 23:59:17.406  INFO 6280 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown initiated...
+2018-07-03 23:59:17.406  INFO 6280 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown completed.
